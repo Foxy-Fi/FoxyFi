@@ -36,7 +36,7 @@ app = dash.Dash(__name__,
                 )
 server = app.server
 app.css.config.serve_locally=True
-app.server.secret_key = b'#213876asjkHAHH2187!=XG123'
+app.server.secret_key = b'' # create your own secret key (randomized string of characters)
 app.server.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=55)
 app.title = 'FoxyFi'
 app.layout = html.Div(
