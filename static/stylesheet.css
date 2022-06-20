@@ -1,0 +1,434 @@
+/* main body CSS customization */
+body {
+    font-family: Trebuchet MS,roboto,ubuntu,sans-serif;
+    font-size: 1rem;
+    margin: 1rem 2rem 1rem 6rem;
+    background: #131722;
+    color: #d1d4dc;
+
+}
+
+.image_logo {
+    height: 30%;
+    width: 30%;
+}
+
+.badge {
+    font-size: 0.7rem;
+    text-shadow: none;
+}
+
+p {
+   margin: 0 0 0 0;
+}
+
+.no_margin {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.font_12px {
+    font-size: 12px;
+    align-content: end;
+}
+
+.font_16px {
+    font-size: 20px;
+}
+
+.padding_top_1rem {
+    padding-top: 1rem;
+}
+
+.padding_left_1rem {
+    padding-left: 1rem;
+}
+
+.padding_bottom_1rem {
+    padding-bottom: 1rem;
+}
+
+.padding_right_1rem {
+    padding-right: 1rem;
+}
+
+.align_bottom {
+    display: grid;
+}
+
+.logo_section{
+    display: flex;
+    align: bottom;
+    font-weight: bold;
+}
+
+.login_signup_section {
+    text-align: right;
+    height: 60px;
+}
+
+.btn {
+    font-size: 0.7rem;
+}
+
+.form-control {
+    color: white;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.add_trade_row {
+    --bs-gutter-x: -1rem;
+}
+
+.flex_grid {
+    display: flex;
+    width: auto;
+}
+
+.accordion_border {
+    border: 2px solid #252d43;
+}
+
+.trade_view_widget {
+    height: 18rem;
+  }
+
+.bio_row {
+    width: 50rem;
+}
+
+.df_row {
+    line-height: 10px;
+    font-size: 0.7rem;
+    overflow-wrap: unset;
+}
+
+.learn_faq_row {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+/* accordion custom CSS */
+.accordion-item {
+    border: 2px solid #1e222d;
+}
+
+.slick-arrow slick-prev {
+    background-color: white;
+    color: white;
+}
+
+.accordion-button.collapsed {
+    background: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    border-width: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+     background: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+     color: white;
+     font-size: 85%;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/assets/minus.png");
+    background-color: #3a3c40;
+    transform: rotate(-360deg);
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("/assets/plus.png");
+    background-color: #3a3c40;
+}
+
+/* DATATABLE CSS CUSTOMIZATION */
+/* datatable tr height customization workaround */
+/*  https://community.plotly.com/t/datatable-row-height/17451/3 */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner tr {
+    min-height: 25px;
+    height: 25px;
+}
+
+/* datatable css customization to prevent hover highlighting effect */
+.dash-spreadsheet-container .dash-spreadsheet-inner table {
+        --hover: transparent !important;
+    }
+
+/* DatePicker Background Color */
+.DateInput_input {
+    background-color: #222;
+    border-color: #222;
+    color: white;
+}
+
+.DateInput {
+    width: auto;
+}
+
+/*------------------------MOBILE------------------------*/
+/* Customizing CSS for mobile screen responsiveness */
+
+@media only screen and (max-width: 720px) and (max-height: 1200px) {
+  body {
+    font-size: 0.7rem;
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  .image_logo {
+    height: 30%;
+    width: 30%;
+  }
+  .btn {
+    font-size: 0.7rem;
+  }
+  .column-header-name {
+    font-size: 0.7rem;
+  }
+  .dash-cell-value {
+    font-size: 0.7rem;
+  }
+  .font_16px {
+    font-size: 0.8rem;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+  .badge {
+    font-size: 0.7rem;
+    text-shadow: none;
+  }
+  .no_margin {
+    font-size: 0.7rem;
+  }
+  .logo_section {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 2.5rem;
+  }
+  .login_signup_section {
+    margin-top: -2.5rem;
+  }
+  .df_row {
+    font-size: 7px;
+    line-height: 7px;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .accordion_border {
+    border: 0px;
+  }
+  .view_row {
+    padding-top: 1rem;
+  }
+  .trade_view_widget {
+    height: 20.5rem;
+  }
+  .bio_row {
+    width: 15rem;
+  }
+  .sidenav---collapsed---LQDEv{
+    height: 20%;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (max-height: 325px) {
+  body {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+} /* this above is to reduce margin for small phones to 1*/
+
+@media only screen and (min-width: 660px) and (max-width: 1200px) and (max-height: 450px) {
+  body {
+    font-size: 0.7rem;
+    margin: 2rem 1rem 1rem 5rem;
+  }
+    .image_logo {
+    height: 30%;
+    width: 30%;
+  }
+  .btn {
+    font-size: 0.7rem;
+  }
+  .column-header-name {
+    font-size: 0.7rem;
+  }
+  .dash-cell-value {
+    font-size: 0.7rem;
+  }
+  .font_16px {
+    font-size: 0.8rem;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+  .badge {
+    font-size: 0.7rem;
+    text-shadow: none;
+  }
+  .no_margin {
+    font-size: 0.7rem;
+  }
+  .logo_section {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 2.5rem;
+  }
+  .login_signup_section {
+    margin-top: -2.5rem;
+  }
+  .df_row {
+    font-size: 6px;
+    line-height: 7px;
+    overflow-wrap: unset;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .accordion_border {
+    border: 0px;
+  }
+  .view_row {
+    padding-top: 1rem;
+  }
+  .trade_view_widget {
+    height: 18rem;
+  }
+  .bio_row {
+    width: 15rem;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .trade_view_widget {
+    height: 15rem;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+ }
+
+@media only screen and (min-width: 800px) and (max-width: 1350px) {
+  body {
+    font-size: 1rem;
+    margin: 2rem 2rem 1rem 5rem;
+  }
+  .image_logo {
+    height: 30%;
+    width: 30%;
+  }
+  .btn {
+    font-size: 0.6rem;
+  }
+  .column-header-name {
+    font-size: 0.6rem;
+  }
+  .dash-cell-value {
+    font-size: 0.6rem;
+  }
+  .badge {
+    font-size: 0.6rem;
+    text-shadow: none;
+  }
+  .no_margin {
+    font-size: 0.6rem;
+  }
+  .logo_section {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .login_signup_section {
+    margin-top: -1rem;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .accordion_border {
+    border: 0px;
+  }
+  .trade_view_widget {
+    height: 18rem;
+  }
+  .bio_row {
+    width: 25rem;
+  }
+  .df_row {
+    font-size: 7px;
+    line-height: 7px;
+    overflow-wrap: unset;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
+
+media only screen and (min-width: 800px) and (min-height: 2000px) {
+  body {
+    font-size: 1rem;
+    margin: 2rem 2rem 1rem 5rem;
+  }
+  .image_logo {
+    height: 30%;
+    width: 30%;
+  }
+  .btn {
+    font-size: 0.6rem;
+  }
+  .column-header-name {
+    font-size: 0.6rem;
+  }
+  .dash-cell-value {
+    font-size: 0.6rem;
+  }
+  .badge {
+    font-size: 0.6rem;
+  }
+  .no_margin {
+    font-size: 0.6rem;
+  }
+  .logo_section {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .login_signup_section {
+    margin-top: -1rem;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .accordion_border {
+    border: 0px;
+  }
+  .trade_view_widget {
+    height: 18rem;
+  }
+  .bio_row {
+    width: 25rem;
+  }
+  .df_row {
+    font-size: 10px;
+    line-height: 10px;
+    overflow-wrap: unset;
+  }
+  .learn_faq_row {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
