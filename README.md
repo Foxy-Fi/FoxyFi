@@ -1,3 +1,5 @@
+[alt text](https://imgur.com/a/tTrCfpC)
+
 # FoxyFi
 
 FoxyFi.cc - Educational website for anyone wanting to learn full stack web development by using 100% Python!
