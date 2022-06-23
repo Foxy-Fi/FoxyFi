@@ -1,4 +1,4 @@
-![image](https://imgur.com/a/tTrCfpC)
+![Imgur Image](https://imgur.com/a/tTrCfpC)
 
 # FoxyFi
 
