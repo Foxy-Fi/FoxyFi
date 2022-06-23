@@ -37,7 +37,7 @@ python app.py
 
 Feel free to reach out to me on YouTube, LinkedIn, Twitter or Instagram with any questions you may have.
 [YouTube](https://www.youtube.com/foxyfi)
-[Twitter[(https://twitter.com/Silviogobet)
+[Twitter](https://twitter.com/Silviogobet)
 [LinkedIn](https://www.linkedin.com/in/silviogobet/)
 [Instagram](https://www.instagram.com/silviogobet/?hl=en)
 
