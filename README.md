@@ -1,4 +1,4 @@
-[alt text](https://imgur.com/a/tTrCfpC)
+![Screenshot](https://imgur.com/a/tTrCfpC)
 
 # FoxyFi
 
