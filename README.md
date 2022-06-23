@@ -1,3 +1,5 @@
+![Screenshot](assets/read_me_screenshot.png)
+
 # FoxyFi
 
 FoxyFi.cc - Educational website for anyone wanting to learn full stack web development by using 100% Python!
