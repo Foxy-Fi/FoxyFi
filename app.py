@@ -282,9 +282,11 @@ def reset_pwd(pathname):
      Input(f'navitem_5', 'n_clicks'),
      Input(f'navitem_6', 'n_clicks'),
      # Input(f'navitem_7', 'n_clicks'),
-     Input(f'navitem_8', 'n_clicks')],
+     Input(f'navitem_8', 'n_clicks'),
+     Input('signup_submit', 'n_clicks'),
+     Input('login_submit', 'n_clicks')],
 )
-def url_router(n1, n2, n3, n4, n5, n6, n8):
+def url_router(n1, n2, n3, n4, n5, n6, n8, signup, login):
     paths = {
         'navitem_1': '/',
         'navitem_2': '/learning-centre',
@@ -295,6 +297,8 @@ def url_router(n1, n2, n3, n4, n5, n6, n8):
         'navitem_7': '/patreon-discord',
         'navitem_8': '/contact',
         'navitem_9': '/buymeacoffee',
+        'signup_submit': '/',
+        'login_submit': '/'
     }
     ctx = dash.callback_context
     if not ctx.triggered:
