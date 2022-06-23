@@ -17,7 +17,9 @@ Trading View was required and the application of CSS styling to make it look as 
 * Ensure you have are running python 3.7 or higher
 * Setup your own Firebase Database and configure it into the project's database.py file 
  (i have done a tutorial on this using python which you can find on my youtube channel - https://www.youtube.com/foxyfi )
-* pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ### Executing program
 
