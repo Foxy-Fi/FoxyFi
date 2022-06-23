@@ -44,7 +44,7 @@ FoxyFi - Silvio Gobet
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspiration, library documentation, etc.
 * [ThetaGang.com](https://thetagang.com)
 * [Plotly Dash](https://plotly.com/dash/)
 * [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai)
