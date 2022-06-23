@@ -12,7 +12,7 @@ Trading View was required and the application of CSS styling to make it look as 
 * This website is deployed and running on HEROKU
 * Authentication management + Database is done using the Pyrebase library in Python to interact with a Real-Time Google Firebase database.
 * Graphical Stock analysis + Technical Analysis + News Feeds are personalized Trading View widgets that can be imported straight into Dash using the
-```html.Iframe()``` component in Dash!
+```html.Iframe()``` component from dash-html-components!
 
 ### Installing
 
